@@ -124,7 +124,7 @@ public class LinearCalculator{
         return "No symmetry";
     }
 
-    //Finds the midpoint between the x and y coordiantes by using the formulas (x2 + x1)/2 and (y2 + y1)/2 and rounds the midpoint using roundedToHundredth()
+    //Finds the midpoint between the x and y coordinates by using the formulas (x2 + x1)/2 and (y2 + y1)/2 and rounds the midpoint using roundedToHundredth()
     //Returns a sentence saying the value of the midpoint 
     public String Midpoint(){
         double xDistance = ((x2) + (x1))/2;
